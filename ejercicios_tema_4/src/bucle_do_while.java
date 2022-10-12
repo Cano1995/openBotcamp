@@ -1,8 +1,11 @@
 public class bucle_do_while {
     public static void main(String[] args){
-        int numeroWhile=0;
-        while (numeroWhile<3) {
-            numeroWhile=numeroWhile+1;
-            System.out.println(" Repeticion nro "+numeroWhile);
-        } }
+        int numerodoWhile=0;
+
+        do {
+            numerodoWhile=numerodoWhile+1;
+            System.out.println(" se ejecuta una sola vez "+numerodoWhile);
+        }
+        while (numerodoWhile<1);
+    }
 }
